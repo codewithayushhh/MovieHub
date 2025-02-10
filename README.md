@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# MovieHub 🎬 – Movie Review & Trailer Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MovieHub is a full-stack web application that allows users to explore movies, watch trailers, and write reviews. Built using React for the frontend, Spring Boot for the backend, and MongoDB for the database, this application provides an interactive and user-friendly platform to discover, discuss, and engage with the world of movies.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+Explore Movies – Browse a collection of movies with detailed information.
+Watch Trailers – Watch movie trailers directly from the platform.
+Write Reviews – Share your thoughts and opinions on movies by posting reviews.
+Search Movies – Find your favorite movies easily with a search bar.
+User-Friendly Interface – Responsive and intuitive UI built with React.
+Backend API – Spring Boot API to handle user interactions and movie data management.
+MongoDB Integration – Store movie details, user reviews, and other data efficiently.
 
-### `npm start`
+### 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Frontend: React, HTML, CSS , JS
+Backend: Spring Boot (Java)
+Database: MongoDB
+API Documentation: Swagger for API documentation
+State Management: React hooks for state management
 
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### 💻 Installation & Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Backend Setup (Spring Boot)
+Clone the repository:
+bash: git clone https://github.com/your-username/MovieHub.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Navigate to the backend directory:
+bash:cd backend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Run the Spring Boot application:
+bash :mvn spring-boot:run
+The backend server will start running on http://localhost:8080.
 
-### `npm run eject`
+Frontend Setup (React)
+Navigate to the frontend directory:
+bash :cd frontend
+Install dependencies:
+bash :npm install
+Start the React app:
+bash :npm start
+The React application will start running on http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🎨 UI Screenshots
+Home Page: Displays a list of movies, trailers play button.
+Movie Detail Page: Shows detailed information about a movie and allows users to write reviews.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📄 Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+###📌 License
+This project is open-source and available under the MIT License.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🌟 Star the repo if you liked the project! 🌟
